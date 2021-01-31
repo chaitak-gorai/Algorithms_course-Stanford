@@ -30,13 +30,7 @@ long long int product(long long int num1, long long int num2,  int n){
 	bc=product(b,c,n/2);
 	
 	return pow(10,n)*ac+pow(10,n/2)*(ad+bc)+bd;
-		
-		
-		
-		
-	}
-	
-	
+		}
 	
 }
 
